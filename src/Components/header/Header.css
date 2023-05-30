@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 0;
+    margin: 0 2.5rem;
+}
+.header-btn{
+    font-size: 1.3rem;
+    margin: 0px 30px;
+    padding: 3px 16px;
+}
+.header-btn:hover{
+    color: var(--imdb-red);
+}
+.header-left {
+    display: flex;
+    align-items: center;
+}
+.header-icon{
+    width: 80px;
+}

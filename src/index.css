@@ -1,0 +1,16 @@
+@import './Components/styles/CommonClasses.css';
+@import './Components/styles/Variable.css';
+
+html{
+  background-color: black;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  color: var(--imdb-text-white);
+}
+
+html,body,#root,.App{
+  min-height: 100%;
+}

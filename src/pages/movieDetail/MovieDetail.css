@@ -1,0 +1,191 @@
+.movie {
+    max-width: 100vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.movie-intro {
+    width: 100%;
+}
+
+.movie-backdrop {
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+    object-position: 0 35%;
+}
+
+.movie-details {
+    align-items: center;
+    width: 100%;
+    display: flex;
+    position: relative;
+    bottom: 400px;
+    background-image: linear-gradient(rgb(0, 0, 0, 0), rgb(0, 0, 0, 1));
+}
+
+.movie-details-left {
+    margin: 0px 15px 0px 40px;
+}
+
+.poster-box {
+    border: 1px solid transparent;
+}
+
+.poster-box :hover {
+    border: .1px solid rgb(28, 27, 27);
+    transform: scale(1.02);
+}
+
+.movie-poster {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.86) 0px 22px 40px 6px;
+}
+
+.movie-details-right {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    margin-bottom: 70px;
+    justify-content: space-between;
+}
+
+.movie-details-right-top {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+.movie-details-right-top>div {
+    text-shadow: 0px 0px 5px #000000;
+    margin-bottom: .3rem;
+}
+
+.movie-name {
+    font-weight: 600;
+    font-size: 3rem;
+}
+.movie-release-date{
+    height: 29px;
+}
+
+.movie-vote-count {
+    margin-left: 1rem;
+}
+
+.movie-genres {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5px;
+}
+
+.movie-genre {
+    padding: .5rem;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-right: 1rem;
+}
+.movie-genre:hover {
+    background-color: rgba(232, 227, 227, 0.2);
+}
+
+.movie-details-page-bottom{
+    margin: 0px 0px -290px 0px;
+    flex: 0.8;
+    height: 0px;
+}
+.movie-details-right-bottom{
+    margin-bottom: 40px;
+    margin-top: 15px;
+}
+.synopsis-text {
+    font-size: 1.5rem;
+    margin-bottom: 1.25rem;
+    font-weight: 600;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.synopsis-text>div:last-of-type {
+    margin-left: auto;
+}
+
+
+.movie-imdb-button {
+    background-color: rgb(81, 0, 255);
+
+}
+.movie-imdb-button:hover {
+    background-color: rgb(72, 14, 198);
+
+}
+
+.movie-home-button {
+    background-color: rgb(255, 0, 0);
+}
+.movie-home-button:hover {
+    background-color: rgb(197, 20, 20);
+}
+
+.movie-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.8rem 2rem;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 150px;
+    color: white;
+    font-weight: bold;
+}
+.movie-details-page-bottom {
+    align-items: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 250px;
+}
+
+.movie-links {
+    position: relative;
+    bottom: 120px;
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+}
+.heading {
+    font-size: 2.2rem;
+}
+
+.production {
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 4rem;
+}
+
+.production-company {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+} 
+
+.production-comapany-image {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin: 2rem;
+    padding: 1px;
+    border-radius: 10px;
+    background-color: white;
+}

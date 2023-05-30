@@ -1,0 +1,13 @@
+.absolute-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.cursor-point{
+    cursor: pointer;
+}
